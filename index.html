@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Transforme seu corpo com nossos planos de academia. Equipamentos modernos, personal trainers e aulas diversas!"
+    />
+    <meta
+      name="keywords"
+      content="academia, fitness, planos de academia, personal trainer, saúde"
+    />
+    <title>Sua Academia - O seu corpo, o seu melhor!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Planos</a></li>
+          <li><a href="#">Horários</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero">
+      <img src="/img/academia-logo.png" alt="Logo da Academia" />
+      <h1>Transforme seu corpo e sua vida!</h1>
+      <p>
+        Na Fitness você encontra tudo o que precisa para alcançar seus
+        objetivos.
+      </p>
+      <a href="#plans" class="btn">Escolha o seu plano</a>
+    </div>
+
+    <section id="benefits" class="benefits">
+      <h2>Por que escolher o Fitness Club?</h2>
+      <br />
+      <div class="benefit-container">
+        <div class="benefit">
+          <img src="equipments.jpg" alt="Equipamentos Modernos" />
+          <h3>Equipamentos Modernos</h3>
+          <p>Treine com os melhores equipamentos do mercado.</p>
+        </div>
+        <div class="benefit">
+          <img src="personal-trainers.jpg" alt="Personal Trainers" />
+          <h3>Personal Trainers</h3>
+          <p>Equipe qualificada para ajudá-lo em cada etapa.</p>
+        </div>
+        <div class="benefit">
+          <img src="fitness-classes.jpg" alt="Aulas Diversas" />
+          <h3>Aulas Diversas</h3>
+          <p>Pilates, spinning, yoga e muito mais.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <h2>O que nossos clientes dizem</h2>
+      <div class="testimonial-container">
+        <blockquote>
+          "A melhor academia que já frequentei! Equipe atenciosa e ótimos
+          equipamentos."
+        </blockquote>
+        <cite>- Ana Souza</cite>
+        <blockquote>
+          "Graças ao Fitness Club, consegui perder 10kg e melhorar minha
+          qualidade de vida!"
+        </blockquote>
+        <cite>- João Pedro</cite>
+      </div>
+    </section>
+
+    <div class="carousel-container">
+      <h2>Conheça nossa academia!</h2>
+      <div class="carousel-slide fade">
+        <img src="/img/acad1.jpg" alt="Pesos e halteres" />
+      </div>
+      <div class="carousel-slide fade">
+        <img src="/img/acad2.jpg" alt="Sala de academia" />
+      </div>
+      <div class="carousel-slide fade">
+        <img src="/img/acad3.jpg" alt="Esteiras" />
+      </div>
+
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+      <div class="carousel-indicators">
+        <span class="dot" onclick="setSlide(1)"></span>
+        <span class="dot" onclick="setSlide(2)"></span>
+        <span class="dot" onclick="setSlide(3)"></span>
+      </div>
+    </div>
+
+    <section id="plans" class="plans">
+      <h2>Escolha o plano ideal para você</h2>
+      <br />
+      <div class="plan-container">
+        <div class="plan">
+          <h3>Básico</h3>
+          <p>R$ 99/mês</p>
+          <ul>
+            <li>Acesso à academia</li>
+            <li>Horário comercial</li>
+            <li>Sem aulas inclusas</li>
+          </ul>
+          <a href="#cta" class="btn-primary">Comece Agora</a>
+        </div>
+        <div class="plan">
+          <h3>Premium</h3>
+          <p>R$ 199/mês</p>
+          <ul>
+            <li>Acesso 24h</li>
+            <li>2 aulas por semana</li>
+            <li>Personal trainer (1x/mês)</li>
+          </ul>
+          <a href="#cta" class="btn-primary">Comece Agora</a>
+        </div>
+        <div class="plan">
+          <h3>VIP</h3>
+          <p>R$ 299/mês</p>
+          <ul>
+            <li>Acesso 24h</li>
+            <li>Aulas ilimitadas</li>
+            <li>Personal trainer exclusivo</li>
+          </ul>
+          <a href="#cta" class="btn-primary">Comece Agora</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Fitness. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="#"><img src="/img/facebook.png" alt="Facebook" /></a>
+        <a href="#"><img src="/img/instagram.png" alt="Instagram" /></a>
+        <a href="#"><img src="/img/whatsapp.png" alt="WhatsApp" /></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
